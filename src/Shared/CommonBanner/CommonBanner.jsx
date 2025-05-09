@@ -2,13 +2,13 @@ import React from "react";
 
 const CommonBanner = () => {
   return (
-    <div className="bg-[url(public/resources/bannerImg.png)] w-full h-screen md:h-[700px]  flex justify-between px-10 md:px-32">
+    <div className="bg-[url(public/resources/bannerImg.png)] w-full h-screen md:h-[700px]  flex justify-between px-10 md:px-32 font">
       <div className="  md:flex md:justify-center md:items-center text-center md:text-left">
         <div>
-        <h2 className="text-[#F3F3F3] text-3xl md:text-5xl lg:text-7xl font-bold font mb-5">
+        <h2 className="text-[#F3F3F3] text-3xl md:text-5xl lg:text-7xl font-bold  mb-5">
           Your Best Medical <br /> Help Center
         </h2>
-        <p className="text-[#F3F3F3] md:text-2xl font mb-7">
+        <p className="text-[#F3F3F3] md:text-2xl  mb-7">
           Lorem Ipsum is simply dummy text they are printing typesetting has
           been the industry’s stardard.
         </p>

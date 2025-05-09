@@ -4,8 +4,8 @@ const CommonBanner = () => {
   return (
     <div className="bg-[url(public/resources/bannerImg.png)] w-full h-screen md:h-[700px]  flex justify-between px-10 md:px-32 font">
       <div className="  md:flex md:justify-center md:items-center text-center md:text-left">
-        <div>
-        <h2 className="text-[#F3F3F3] text-3xl md:text-5xl lg:text-7xl font-bold  mb-5">
+        <div className="mt-8 md:mt-0">
+        <h2 className="text-[#F3F3F3] text-3xl md:text-5xl lg:text-7xl font-bold mb-10  md:mb-5">
           Your Best Medical <br /> Help Center
         </h2>
         <p className="text-[#F3F3F3] md:text-2xl  mb-7">

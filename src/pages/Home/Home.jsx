@@ -1,13 +1,14 @@
-import CommonBanner from "../../Shared/CommonBanner/CommonBanner";
-import Navbar from "../../Shared/Navbar/Navbar";
+import CommonBanner from "../Shared/CommonBanner/CommonBanner";
+import Navbar from "../Shared/Navbar/Navbar";
+import Services from "../../components/Services/Services";
+
 
 const Home = () => {
     return (
         <div>
-            <div className="">
             <Navbar/>
-            </div>
             <CommonBanner/>
+            <Services/>
         </div>
     );
 };

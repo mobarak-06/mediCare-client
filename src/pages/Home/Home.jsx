@@ -1,7 +1,9 @@
+import CommonBanner from "../../Shared/CommonBanner/CommonBanner";
+
 const Home = () => {
     return (
         <div>
-            <h2>hello world 2</h2>
+            <CommonBanner/>
         </div>
     );
 };
